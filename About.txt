@@ -16,10 +16,10 @@ Bootstrap is a free and open-source CSS(Cascading Style Sheets Programming langu
 url("https://fonts.googleapis.com/css?family=Lato:300,400,700")
 
 
-Steps: 1. first of all we have to create a virtual environment and after activating this virtual environment we have to install flask using pip install flask 
-            2. We want to create the actual database and to do this first we need to create a schema( schema.sql with queries) this file with generate a database using  sqlite3 
+Steps: 1. First of all we have to create a virtual environment (cmd : py -m venv env) and after activating this virtual environment               (cmd: env\scripts\activate) we have to install flask using cmd : pip install flask 
+       2. We want to create the actual database and to do this first we need to create a schema( schema.sql with queries) this file with           generate a database using  sqlite3 (check out database.py)
 
-             then we have to go through each one of function
+          then we have to go through each one of function
 	3.Register user
 	4.Login
 	5.Sessions
@@ -37,7 +37,7 @@ Steps: 1. first of all we have to create a virtual environment and after activat
 	17.Protecting Routes by Role
 	18.Login Failure message
 	19.formatting Queries
-            20.Added link Macro(show_links.html) and Base Template(base.html) to avoid repeating codes. 
+        20.Added link Macro(show_links.html) and Base Template(base.html) to avoid repeating codes. 
 
 
 
